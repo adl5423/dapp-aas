@@ -48,6 +48,7 @@ export default function RootLayout({
             },
           }),
         ]}
+        // The authConfig is optional and can be removed if desired. 
         authConfig={{
           authUrl: "/api/auth",
           domain: process.env.NEXT_PUBLIC_THIRDWEB_AUTH_DOMAIN || '',
